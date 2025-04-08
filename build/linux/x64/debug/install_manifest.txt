@@ -1,0 +1,13 @@
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/pokedex
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/data/flutter_assets/NativeAssetsManifest.json
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/home/pacto/Documentos/Github/dart_UIs/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
