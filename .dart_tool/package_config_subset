@@ -138,6 +138,10 @@ frontend_server_client
 3.0
 file:///home/pacto/.pub-cache/hosted/pub.dev/frontend_server_client-4.0.0/
 file:///home/pacto/.pub-cache/hosted/pub.dev/frontend_server_client-4.0.0/lib/
+gap
+2.12
+file:///home/pacto/.pub-cache/hosted/pub.dev/gap-3.0.1/
+file:///home/pacto/.pub-cache/hosted/pub.dev/gap-3.0.1/lib/
 glob
 3.3
 file:///home/pacto/.pub-cache/hosted/pub.dev/glob-2.1.3/

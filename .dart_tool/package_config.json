@@ -230,6 +230,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "gap",
+      "rootUri": "file:///home/pacto/.pub-cache/hosted/pub.dev/gap-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "glob",
       "rootUri": "file:///home/pacto/.pub-cache/hosted/pub.dev/glob-2.1.3",
       "packageUri": "lib/",
@@ -644,7 +650,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-04-09T11:55:40.018268Z",
+  "generated": "2025-04-13T23:10:59.701555Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///home/pacto/snap/flutter/common/flutter",
