@@ -15,9 +15,7 @@ class SecondPage extends StatelessWidget {
         margin: EdgeInsets.symmetric(horizontal: 8),
         decoration: BoxDecoration(borderRadius: BorderRadius.circular(18)),
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(
-            18,
-          ), // Control the circular radius here
+          borderRadius: BorderRadius.circular(18),
           child: Image.asset(
             imagePath,
             width: 150,
@@ -70,6 +68,7 @@ class SecondPage extends StatelessWidget {
                         style: TextStyle(
                           fontSize: 14,
                           fontFamily: 'Sen',
+
                           color: Color.fromARGB(255, 0, 0, 0),
                         ),
                       ),
@@ -137,6 +136,7 @@ class SecondPage extends StatelessWidget {
                                 color: Color(0xFF838799),
                                 fontFamily: 'Sen',
                                 fontSize: 16,
+                                fontWeight: FontWeight.bold,
                               ),
                               'Running Orders',
                             ),
@@ -178,6 +178,7 @@ class SecondPage extends StatelessWidget {
                                 color: Color(0xFF838799),
                                 fontFamily: 'Sen',
                                 fontSize: 16,
+                                fontWeight: FontWeight.bold,
                               ),
                               'Order Request',
                             ),
@@ -192,11 +193,8 @@ class SecondPage extends StatelessWidget {
               Row(
                 children: [
                   Column(
-                    mainAxisAlignment:
-                        MainAxisAlignment.start, // Alinha os widgets ao topo
-                    crossAxisAlignment:
-                        CrossAxisAlignment
-                            .start, // Alinha horizontalmente à esquerda
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
                         padding: const EdgeInsets.only(left: 24),
@@ -216,7 +214,7 @@ class SecondPage extends StatelessWidget {
                             '\$2,241',
                             style: TextStyle(
                               fontFamily: 'Sen',
-                              fontSize: 40,
+                              fontSize: 22,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -288,17 +286,17 @@ class SecondPage extends StatelessWidget {
                   ),
                 ],
               ),
-              Gap(18),
+              // Gap(18),
               Center(
                 child: Container(
-                  height: 150,
-                  margin: EdgeInsets.all(16),
+                  height: 140,
+                  //margin: EdgeInsets.all(16),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(16),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(16.0),
+                    padding: const EdgeInsets.all(20.0),
                     child: LineChart(
                       LineChartData(
                         gridData: FlGridData(show: false),
@@ -306,7 +304,7 @@ class SecondPage extends StatelessWidget {
                           bottomTitles: AxisTitles(
                             sideTitles: SideTitles(
                               showTitles: true,
-                              reservedSize: 30,
+                              reservedSize: 20,
                               getTitlesWidget: (value, meta) {
                                 switch (value.toInt()) {
                                   case 0:
@@ -398,21 +396,10 @@ class SecondPage extends StatelessWidget {
                   ),
                 ),
               ),
-
-              Gap(20),
               Row(
                 children: [
-                  Gap(16),
                   Stack(
                     children: [
-                      Container(
-                        width: 327,
-                        height: 94,
-                        decoration: BoxDecoration(
-                          color: Color.fromARGB(255, 251, 0, 0),
-                          borderRadius: BorderRadius.circular(20),
-                        ),
-                      ),
                       Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -454,10 +441,9 @@ class SecondPage extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              Gap(10),
                             ],
                           ),
-                          Gap(6),
+                          Gap(20),
                           Row(
                             crossAxisAlignment: CrossAxisAlignment.end,
                             children: [
@@ -494,80 +480,80 @@ class SecondPage extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Gap(10),
+                          Gap(0),
                         ],
-                      ),
-                      Container(
-                        width: 327,
-                        height: 220,
-                        decoration: BoxDecoration(
-                          color: Color.fromARGB(255, 255, 255, 255),
-                          borderRadius: BorderRadius.circular(20),
-                        ),
-                        child: Column(
-                          children: [
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              children: [
-                                Padding(
-                                  padding: const EdgeInsets.only(
-                                    left: 20,
-                                    top: 14,
-                                  ),
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      'Populer Items This Weeks',
-                                      style: TextStyle(
-                                        fontFamily: 'Sen',
-                                        fontSize: 14,
-                                        color: Color.fromARGB(255, 0, 0, 0),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-
-                                Gap(80),
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 14),
-                                  child: Align(
-                                    alignment: Alignment.topRight,
-                                    child: Text(
-                                      'See All',
-                                      style: TextStyle(
-                                        fontFamily: 'Sen',
-                                        fontSize: 14,
-                                        color: Color(0xFFFB6D3A),
-                                        decoration: TextDecoration.underline,
-                                        decorationColor: Color(0xFFFB6D3A),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                            SizedBox(
-                              height: 153,
-                              child: SingleChildScrollView(
-                                scrollDirection: Axis.horizontal,
-                                padding: EdgeInsets.only(top: 20, bottom: 20),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.min,
-                                  children: [
-                                    itens('lib/assets/restaurante.jpeg'),
-                                    itens('lib/assets/restaurante.jpeg'),
-                                    itens('lib/assets/restaurante.jpeg'),
-                                    itens('lib/assets/restaurante.jpeg'),
-                                  ],
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
                       ),
                     ],
                   ),
                 ],
+              ),
+              Container(
+                width: 327,
+                height: 190,
+                decoration: BoxDecoration(
+                  color: Color.fromARGB(255, 255, 255, 255),
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Column(
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.only(left: 20, top: 14),
+                          child: Align(
+                            alignment: Alignment.topLeft,
+                            child: Text(
+                              'Popular Items This Weeks',
+                              style: TextStyle(
+                                fontFamily: 'Sen',
+                                fontSize: 14,
+                                color: Color.fromARGB(255, 0, 0, 0),
+                              ),
+                            ),
+                          ),
+                        ),
+
+                        Gap(80),
+                        Padding(
+                          padding: const EdgeInsets.only(top: 14),
+                          child: Align(
+                            alignment: Alignment.topRight,
+                            child: Text(
+                              'See All',
+                              style: TextStyle(
+                                fontFamily: 'Sen',
+                                fontSize: 14,
+                                color: Color(0xFFFB6D3A),
+                                decoration: TextDecoration.underline,
+                                decorationColor: Color(0xFFFB6D3A),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+
+                    Gap(10),
+
+                    SizedBox(
+                      height: 146,
+                      child: SingleChildScrollView(
+                        scrollDirection: Axis.horizontal,
+                        padding: EdgeInsets.only(top: 0, bottom: 0),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            itens('lib/assets/restaurante.jpeg'),
+                            itens('lib/assets/restaurante.jpeg'),
+                            itens('lib/assets/restaurante.jpeg'),
+                            itens('lib/assets/restaurante.jpeg'),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
