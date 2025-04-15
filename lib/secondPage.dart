@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:gap/gap.dart';
 import 'package:fl_chart/fl_chart.dart';
+import 'package:pokedex/thirdPage.dart';
 
 class SecondPage extends StatelessWidget {
   const SecondPage({super.key});
@@ -89,10 +90,21 @@ class SecondPage extends StatelessWidget {
                             color: Color.fromARGB(255, 0, 0, 0),
                             borderRadius: BorderRadius.circular(20),
                           ),
-                          child: Icon(
-                            Icons.person,
-                            color: Colors.white,
-                            size: 20,
+                          child: GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => ThirdPage(),
+                                ),
+                              );
+                            },
+
+                            child: Icon(
+                              Icons.person,
+                              color: Colors.white,
+                              size: 20,
+                            ),
                           ),
                         ),
                       ],
@@ -260,7 +272,7 @@ class SecondPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Gap(25),
+                  Gap(55),
                   SizedBox(
                     width: 73,
                     height: 73,
@@ -452,10 +464,13 @@ class SecondPage extends StatelessWidget {
                                   left: 15,
                                   top: 10,
                                 ),
-                                child: Icon(
-                                  Icons.star,
-                                  color: Color(0xFFFB6D3A),
-                                  size: 26,
+                                child: Padding(
+                                  padding: const EdgeInsets.only(bottom: 4),
+                                  child: Icon(
+                                    Icons.star,
+                                    color: Color(0xFFFB6D3A),
+                                    size: 26,
+                                  ),
                                 ),
                               ),
                               Gap(7),
@@ -469,13 +484,19 @@ class SecondPage extends StatelessWidget {
                                 ),
                               ),
                               Gap(11),
-                              Text(
-                                'Total 20 Reviews',
-                                style: TextStyle(
-                                  fontFamily: 'Sen',
-                                  fontSize: 17,
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                  left: 12,
+                                  bottom: 5,
+                                ),
+                                child: Text(
+                                  'Total 20 Reviews',
+                                  style: TextStyle(
+                                    fontFamily: 'Sen',
+                                    fontSize: 17,
 
-                                  color: Color.fromARGB(255, 0, 0, 0),
+                                    color: Color.fromARGB(255, 0, 0, 0),
+                                  ),
                                 ),
                               ),
                             ],

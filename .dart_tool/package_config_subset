@@ -182,6 +182,10 @@ http_parser
 3.4
 file:///home/pacto/.pub-cache/hosted/pub.dev/http_parser-4.1.2/
 file:///home/pacto/.pub-cache/hosted/pub.dev/http_parser-4.1.2/lib/
+intl
+2.12
+file:///home/pacto/.pub-cache/hosted/pub.dev/intl-0.18.1/
+file:///home/pacto/.pub-cache/hosted/pub.dev/intl-0.18.1/lib/
 io
 3.4
 file:///home/pacto/.pub-cache/hosted/pub.dev/io-1.0.5/

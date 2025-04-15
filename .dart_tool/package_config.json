@@ -296,6 +296,12 @@
       "languageVersion": "3.4"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///home/pacto/.pub-cache/hosted/pub.dev/intl-0.18.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "io",
       "rootUri": "file:///home/pacto/.pub-cache/hosted/pub.dev/io-1.0.5",
       "packageUri": "lib/",
@@ -662,7 +668,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-04-14T16:13:17.048436Z",
+  "generated": "2025-04-15T13:38:16.251837Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///home/pacto/snap/flutter/common/flutter",
