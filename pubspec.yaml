@@ -45,6 +45,7 @@ dependencies:
   fl_chart: ^0.66.0
   intl: ^0.18.1
   material_symbols_icons: ^4.2719.0
+  flutter_svg: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -76,6 +77,13 @@ flutter:
     - lib/assets/compass.png
     - lib/assets/cool_to_dry.svg
     - lib/assets/pressure.png
+    - lib/assets/shopee_icon.png
+    - lib/assets/shopee_wallpaper.png
+    - lib/assets/voucher.png
+    - lib/assets/world.png
+    - lib/assets/all.png
+    - lib/assets/money.png
+    - lib/assets/trophy.svg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
